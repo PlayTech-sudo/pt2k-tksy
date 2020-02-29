@@ -1,0 +1,78 @@
+table
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  	font size: 0.9cm;
+  	width: 75%;
+  	max-height: 100;  
+	background-color: : green;
+	position: absolute;
+ 	left: 900px;
+  	top: 150px;
+  	border-radius: 5px 5px 0 0;
+  	overflow: hidden;
+  	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+select
+{
+	padding: 3px 5px;
+	margin: 0;
+	height: 100%;
+	width: 15%;
+	color: #fff;
+	background:#2c3e50;
+	font-size: 1em;
+	letter-spacing: .7px;
+	cursor: pointer;
+	text-align: center;
+}
+select:hover::after
+{
+	color: #31a3e4;
+	font-weight: bold;
+}
+tr
+{
+	font-weight: bold;
+	border-bottom: 1px solid #dddddd;
+}
+tr:nth-of-type(even){
+	background-color: #f3f3f3;
+}
+tr:last-of-type{
+	border-bottom: 2px solid green;
+}
+th
+{
+	padding: 6px 14px;
+	background-color: #2EB847;
+	border-collapse: collapse;
+	text-align: center;
+}
+td
+{
+	border:.1px solid;
+	border-collapse: collapse;
+	padding: 10px 12px;
+	text-align: left;
+}
+tr:hover {background-color: #ddd;}
+
+form input
+{
+	padding :3px 2px;
+	background:#2c3e50;
+	color: #fff;
+	height: 100%;
+	width: 9%;
+
+}
+select::after
+{
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	padding:0 1em;
+	background: #344953;
+	pointer-events: none;
+}

@@ -1,0 +1,26 @@
+table{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  	width: 75%;
+  	max-height: 100;
+	border:1px solid;  
+	position: absolute;
+ 	right: 60px;
+  	top: 80px;
+}
+th{
+	border:1px solid;
+	padding: 10px 12px;
+	background-color: green;
+	font-weight: bold;
+	text-decoration-color: white;
+	border-collapse: collapse;
+	text-align: center;
+}
+td{
+	border:.1px solid;
+	border-collapse: collapse;
+	text-align: left;
+	padding: 10px 10px;
+}
+tr:hover {background-color: #ddd;}
+

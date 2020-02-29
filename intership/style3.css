@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  background-color: hsl(145, 70%, 40%);
+  color:#ffffff;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px
+}
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    align-self: center;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 50px;
+}
+.row {margin: 1px -5px;}
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px 10px;
+}
